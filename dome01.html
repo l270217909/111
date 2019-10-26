@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0
+    }
+    
+    @media screen and (min-width: 320px)and(max-width: 528px) {
+        body {
+            font-size: 10px
+        }
+    }
+    
+    .back {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        display: block;
+        z-index: -100;
+    }
+    
+    .from {
+        display: flex;
+        width: 75%;
+        height: 1.7rem;
+        border: 1px rgb(0, 104, 179) solid;
+        position: absolute;
+        top: 10%;
+        left: 13%;
+        background-color: rgb(0, 104, 179)
+    }
+    
+    .tim {
+        top: 17%
+    }
+    
+    .sim {
+        top: 24%
+    }
+    
+    .fim {
+        top: 31%
+    }
+    
+    .wim {
+        top: 38%
+    }
+    
+    .lim {
+        top: 45%
+    }
+    
+    .fleft {
+        width: 30%;
+    }
+    
+    .fleft p {
+        font-size: 0.9rem;
+        color: white;
+        text-align: center;
+        letter-spacing: 0.3rem;
+        padding-top: 0.2rem
+    }
+    
+    .fright {
+        width: 70%;
+        float: right;
+    }
+    
+    .fright input {
+        width: 99%;
+        height: 90%
+    }
+    
+    .kk p {
+        letter-spacing: 0.8rem
+    }
+    
+    .sj {
+        width: 45%;
+    }
+    
+    .sjleft {
+        width: 70%
+    }
+    
+    .sjyz {
+        position: absolute;
+        top: 31%;
+        left: 61%;
+        height: 1.8rem;
+        width: 28%
+    }
+    
+    .sjyz button {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(0, 104, 179);
+        font-size: 0.9rem;
+        color: white;
+        letter-spacing: 0.2rem
+    }
+    
+    .check {
+        position: absolute;
+        top: 52%;
+        left: 13%
+    }
+    
+    input[type='checkbox'] {
+        width: 1rem;
+        height: 1rem;
+        outline: 0.14rem solid rgb(0, 104, 179);
+    }
+    
+    .xx {
+        font-size: 0.01rem;
+        color: rgb(0, 104, 179);
+        position: absolute;
+        top: 51.5%;
+        left: 19%;
+    }
+    
+    .bgc {
+        position: absolute;
+        top: 62%;
+        left: 33%;
+        width: 34%;
+        height: 5%
+    }
+    
+    .bgc input {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(247, 231, 82);
+        border-radius: 30%;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: rgb(199, 62, 2)
+    }
+    
+    .container {
+        width: 0.01rem;
+        background-color: white;
+        position: absolute;
+        top: 31%;
+        left: 92%
+    }
+    
+    .corner {
+        width: 0px;
+        height: 0px;
+        border: 0.6rem solid rgb(0, 104, 179);
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+    }
+</style>
+
+<body>
+    <img src="pic/321.png" class="back" id="Background">
+    <div class="from">
+        <div class="fleft kk">
+            <p>姓 名</p>
+        </div>
+        <div class="fright"><input type="text"></div>
+    </div>
+    <div class="from tim">
+        <div class="fleft">
+            <p>证件类型</p>
+        </div>
+        <div class="fright"><input type="text"></div>
+        <div class="container">
+            <div class="corner"></div>
+        </div>
+
+    </div>
+    <div class="from sim">
+        <div class="fleft">
+            <p>证件号码</p>
+        </div>
+        <div class="fright"><input type="text"></div>
+    </div>
+    <div class="box">
+        <div class="from fim sj ">
+            <div class="fleft sjleft">
+                <p>手机号码</p>
+            </div>
+            <div class="fright sjright"><input type="text"></div>
+        </div>
+        <div class="sjyz"><button>获取验证码</button></div>
+    </div>
+    <div class="from wim">
+        <div class="fleft">
+            <p>验证号码</p>
+        </div>
+        <div class="fright"><input type="text"></div>
+    </div>
+    <div class="from lim">
+        <div class="fleft">
+            <p>所在地区</p>
+        </div>
+        <div class="fright"><input type="text"></div>
+    </div>
+    <div class="check">
+        <input type="checkbox">
+    </div>
+    <div class="xx">
+        <dl>
+            <dd>本人知晓并同意，本人授权中英人寿使用本人相关个</dd>
+            <dd>人信息及将本人相关信息提供到中英人寿合作/授权的</dd>
+            <dd>第三方，用于身份验证、用户服务、安全防范、诈骗</dd>
+            <dd>检测及备份用途。</dd>
+        </dl>
+    </div>
+    <div class="bgc">
+        <input type="submit" value="立即提交">
+    </div>
+
+</body>
+
+
+</html3
